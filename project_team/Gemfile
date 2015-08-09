@@ -3,6 +3,7 @@ source "https://rubygems.org"
 
 group :prodiuction do
 	gem 'sinatra'
+	gem 'json'
 end
 
 
@@ -12,4 +13,5 @@ group :development do
   # gem 'mocha'	
   # gem 'minitest-reporters'
   # gem 'rake'
+  gem 'rerun'
 end
