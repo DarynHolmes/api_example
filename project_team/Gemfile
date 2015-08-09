@@ -1,0 +1,15 @@
+
+source "https://rubygems.org"
+
+group :prodiuction do
+	gem 'sinatra'
+end
+
+
+group :development do
+  # gem 'guard'
+  # gem 'guard-minitest'
+  # gem 'mocha'	
+  # gem 'minitest-reporters'
+  # gem 'rake'
+end
