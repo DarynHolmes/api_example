@@ -156,5 +156,6 @@ Time to code!
   * http://www.w3schools.com/html/html_elements.asp
 
 ### Rock Paper Scissors - optional
-
+* Good practice
+* https://github.com/TIY-Rails-1507/week-02-homework
 
