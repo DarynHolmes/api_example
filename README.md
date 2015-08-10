@@ -149,7 +149,11 @@ Time to code!
 * Focus on the homework section: Exception handling
 * This includes excercise 4.1. - https://github.com/TIY-Rails-1507/week-02-class#excercise
 
-
+### HTML
+* Go through the following:
+  * http://www.w3schools.com/html/html_intro.asp
+  * http://www.w3schools.com/html/html_basic.asp
+  * http://www.w3schools.com/html/html_elements.asp
 
 
 
