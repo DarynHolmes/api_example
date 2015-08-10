@@ -8,7 +8,9 @@ Examples - books, teams
 The class can implement books
 
 ## Bundler
-http://bundler.io/images/bundler-small.png
+
+![Image of Bundler](http://bundler.io/images/bundler-small.png)
+
 * Used to manage Gems (libraries) 
 * Used to create empty Gems
 * Gemfile contains the required gems
