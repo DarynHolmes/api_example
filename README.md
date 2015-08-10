@@ -28,24 +28,21 @@ Key commands:
 * ```bundle install```
 * ```bundle update```
 
-# api_example
+## API
 
-Document formats
-Plain text
-CSV (comma separated value)
-XML
-JSON
+### Document formats
+* Plain text
+* CSV (comma separated value)
+* XML
+* JSON
 
-The term API stands for Application Programming Interface.
+The term API stands for Application Programming Interface. It can mean the interface to a library (gem) or a webservice API - also known as an HTTP API. A webservice is used to share data over a network. 
 
-However, these days, when people refer to an API they are most likely referring to an HTTP API, which can be a way of sharing application data over the internet. 
-
-For example, let's say we have an application that allows you to view, create, edit, and delete widgets. We could create an HTTP API that allows you to perform these functions:
-
-http://example.com/view_teams
-http://example.com/create_new_team?name=Runners
-http://example.com/update_team?id=10&name=Sue
-http://example.com/delete_team?id=10
+An API for managing teams could look like this:
+* http://example.com/view_teams
+* http://example.com/create_new_team?name=Runners
+* http://example.com/update_team?id=10&name=Sue
+* http://example.com/delete_team?id=10
 
 A problem has started to arise when everyone starts implementing their own APIs. Without a standard way of naming URLs, you always have to refer to the documentation to understand how the API works. One API might have a URL like /view_widgets whereas another API might use /widgets/all.
 
