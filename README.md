@@ -149,16 +149,16 @@ Time to code!
 * Focus on the homework section: Exception handling
 * This includes excercise 4.1. - https://github.com/TIY-Rails-1507/week-02-class#excercise
 
+### API practice
+* Create a console game of Blackjack
+* Keep it simple then build on it
+* Use: http://deckofcardsapi.com/
+
 ### HTML
 * Go through the following:
   * http://www.w3schools.com/html/html_intro.asp
   * http://www.w3schools.com/html/html_basic.asp
   * http://www.w3schools.com/html/html_elements.asp
-
-### API practive
-* Create a console game of Blackjack
-* Keep it simple then build on it
-* Use: http://deckofcardsapi.com/
 
 ### Rock Paper Scissors - optional
 * Good practice
