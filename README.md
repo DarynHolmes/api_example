@@ -155,6 +155,11 @@ Time to code!
   * http://www.w3schools.com/html/html_basic.asp
   * http://www.w3schools.com/html/html_elements.asp
 
+### API practive
+* Create a console game of Blackjack
+* Keep it simple then build on it
+* Use: http://deckofcardsapi.com/
+
 ### Rock Paper Scissors - optional
 * Good practice
 * https://github.com/TIY-Rails-1507/week-02-homework
