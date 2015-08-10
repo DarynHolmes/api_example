@@ -1,21 +1,18 @@
 # Week 3
 ###### JSON, connect to simple APIs, RottenTomatoes API, DeckOfCards API, HTTP methods (200,300,400,500)
 
-Examples - books, teams
-The class can implement books
-
 ## Bundler
 
 ![Image of Bundler](http://bundler.io/images/bundler-small.png)
 
 Website: http://bundler.io/
 
-Purpose
+Purpose:
 * Used to manage Gems (libraries) and thier dependencies
 * Used to create your own Gems
   * creates an empty project with the correct folder structure, config e.t.c. 
 
-Files
+Files:
 * Gemfile contains the required gems
   * Example: https://gist.github.com/boriscy/827469 
 * Gemlock is a generated file that contains the exact versions that were last installed
@@ -35,14 +32,13 @@ An API for managing teams could look like this:
 * http://example.com/update_team?id=10&name=Sue
 * http://example.com/delete_team?id=10
 
-While you can design your own API, with your own end points (URIs), it is good practice to follow an architectural style known as REST - representational state transfer. This is a standard way of naming URIs.
+While you can design your own API, with any endpoints you desire, it is good practice to follow an architectural style known as REST - representational state transfer. This is a standard way of naming endpoints\URIs.
 
 ### REST
 
-Representational State Transfer (REST) was introduced by Roy Fielding to describe a standard way of creating HTTP APIs. He mapped the main HTTP verbs (view, create, edit, and delete) onto common actions e.g. GET, POST, PUT, DELETE.
+Representational State Transfer (REST) was introduced by Roy Fielding to describe a standard way of creating HTTP APIs. When using the RESTful style we map main HTTP verbs (GET, POST, PUT, DELETE) onto common actions e.g. view, create, edit, and delete.
 
-#### HTTP methods
-These are called HTTP verbs
+#### HTTP methods\verbs
 
 Commonly used verbs:
 * GET
@@ -50,7 +46,7 @@ Commonly used verbs:
 * PUT
 * DELETE
 
-Uses:
+Mapping onto actions:
 * GET - read
 * POST - create
 * PUT - update
@@ -156,7 +152,7 @@ User error codes:
 
 
 #### Time to code....
-
+Possible Examples - books, teams
 
 ## Homework
 
