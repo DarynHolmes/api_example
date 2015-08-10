@@ -44,6 +44,7 @@ An API for managing teams could look like this:
 * http://example.com/update_team?id=10&name=Sue
 * http://example.com/delete_team?id=10
 
+You can design your own API, with your own end point URI
 A problem has started to arise when everyone starts implementing their own APIs. Without a standard way of naming URLs, you always have to refer to the documentation to understand how the API works. One API might have a URL like /view_widgets whereas another API might use /widgets/all.
 
 REST
