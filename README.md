@@ -11,12 +11,18 @@ The class can implement books
 
 ![Image of Bundler](http://bundler.io/images/bundler-small.png)
 
-* Used to manage Gems (libraries) 
-* Used to create empty Gems
+Website: http://bundler.io/
+
+Purpose
+* Used to manage Gems (libraries) and thier dependencies
+* Used to create your own Gems
+  * creates an empty project with the correct folder structure, config e.t.c. 
+
+Files
 * Gemfile contains the required gems
+  * Example: https://gist.github.com/boriscy/827469 
 * Gemlock is a generated file that contains the exact versions that were last installed
 * The Gemlock file us updated when you do a: ```bundle update```
-* http://bundler.io/
 
 Key commands:
 * ```bundle install```
