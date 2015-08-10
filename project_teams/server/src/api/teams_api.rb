@@ -6,23 +6,11 @@ class Server < Sinatra::Base
 	    set :my_config_property, 'hello world'
 	end
 
-  	def teams
-  		$teams ||= [] 
-  	end
-
-  	def id_counter
-  		$id_counter ||= 1
-  	end
-
-  	get '/' do
-    	"#{settings.my_config_property}"
-  	end
-
 	get '/teams' do
 		list = []
-		teams.each do | team | 
+		settings.teams.each do | team | 
 			team_hash = {}
-			team_hash[:id] = id_counter
+			team_hash[:id] = team.id
 			team_hash[:name] = team.name
 			list << team_hash		
 		end
@@ -31,10 +19,10 @@ class Server < Sinatra::Base
 
 	post '/teams' do
 		team = Team.new
-		team.id = id_counter
+		team.id = settings.id_counter
 		team.name = params['name']
 		settings.teams << team
-		id_counter += 1
+		settings.id_counter += 1
 		status 201
 	end
 

@@ -13,13 +13,13 @@ response = http.request(request)
 puts response.code
 puts response.body
 
-# request.set_form_data({"name" => "Seaweed"})
-# response = http.request(request)
-# puts response.code
-# puts response.body
+request.set_form_data({"name" => "Seaweed"})
+response = http.request(request)
+puts response.code
+puts response.body
 
-# http = Net::HTTP.new(uri.host, uri.port)
-# response = http.request(Net::HTTP::Get.new(uri.request_uri))
-# puts response.code
-# puts response.body
+http = Net::HTTP.new(uri.host, uri.port)
+response = http.request(Net::HTTP::Get.new(uri.request_uri))
+puts response.code
+puts response.body
 
