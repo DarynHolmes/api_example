@@ -144,6 +144,11 @@ Time to code!
 ## Homework
 
 ### Expetion Handeling
+* This is from Week 2, Monday
+* See https://github.com/TIY-Rails-1507/week-02-class#homework_monday
+* Focus on the homework section: Exception handling
+* This includes excercise 4.1. - https://github.com/TIY-Rails-1507/week-02-class#excercise
+
 
 
 
