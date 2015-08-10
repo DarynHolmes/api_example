@@ -7,6 +7,19 @@
 Examples - books, teams
 The class can implement books
 
+## Bundler
+http://bundler.io/images/bundler-small.png
+* Used to manage Gems (libraries) 
+* Used to create empty Gems
+* Gemfile contains the required gems
+* Gemlock is a generated file that contains the exact versions that were last installed
+* The Gemlock file us updated when you do a: ```bundle update```
+* http://bundler.io/
+
+Key commands:
+* ```bundle install```
+* ```bundle update```
+
 # api_example
 
 Document formats
