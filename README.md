@@ -1,3 +1,9 @@
+
+# Week 3
+###### JSON, connect to simple APIs, RottenTomatoes API, DeckOfCards API, HTTP methods (200,300,400,500)
+
+
+
 Examples - books, teams
 The class can implement books
 
@@ -135,6 +141,9 @@ JSON example
 Time to code!
 
 
+## Homework
+
+### Expetion Handeling
 
 
 
