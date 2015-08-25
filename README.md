@@ -156,7 +156,7 @@ Possible Examples - books, teams
 
 ## Homework
 
-### Expetion Handeling
+### Excetion Handling
 * This is from Week 2, Monday
 * See https://github.com/TIY-Rails-1507/week-02-class#homework_monday
 * Focus on the homework section: Exception handling
